@@ -3,7 +3,7 @@ config = app.App {
     name = "flask_demo"
     containers: {
         flask_demo = {
-            image = "kcllang/flask_demo:f1f2cbc0c4555d141e9f642fbd12edaf34d0b723"
+            image = "kcllang/flask_demo:6428cff4309afc8c1c40ad180bb9cfd82546be3e"
             ports = [{containerPort = 5000}]
         }
     }
