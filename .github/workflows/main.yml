@@ -24,7 +24,8 @@ jobs:
           wget -q https://kcl-lang.io/script/install.sh -O - | /bin/bash
           /usr/local/kclvm/bin/kcl -d -O config.containers.flask_demo.image="${{ github.event.inputs.image }}:${{ github.event.inputs.sha-tag }}"
       - name: Git Commit/Push Changes
-        uses: actions-x/commit@v2
+        uses: EndBug/add-and-commit@v9
         if: ${{ github.event.inputs.image }}
         with:
+          default_author: github_actions
           message: "kcl code set image to ${{ github.event.inputs.image }}:${{ github.event.inputs.sha-tag }}"
