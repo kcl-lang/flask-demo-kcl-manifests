@@ -2,6 +2,14 @@
 
 Flask Demo KCL manifests, we can run the command to get Kubernetes manifests with [KCL](https://kcl-lang.io).
 
+## Run
+
 ```shell
-kcl
+kcl run
+```
+
+## Test
+
+```shell
+kcl test
 ```
