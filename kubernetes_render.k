@@ -34,6 +34,7 @@ kubernetesRender = lambda a: app.App {
         kind = "Service"
         metadata.name = a.name
         metadata.labels = a.labels
+        metadata.namespace = "default"
         spec = {
             type = a.service?.$type
             selector = a.labels
