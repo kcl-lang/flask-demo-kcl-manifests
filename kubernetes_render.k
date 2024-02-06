@@ -10,6 +10,7 @@ kubernetesRender = lambda a: app.App {
         kind = "Deployment"
         metadata.name = a.name
         metadata.labels = a.labels
+        metadata.namespace = "default"
         spec = {
             replicas = a.replicas
             selector.matchLabels = a.labels
