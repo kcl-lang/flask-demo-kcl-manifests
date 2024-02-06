@@ -1,6 +1,6 @@
 import app
 config = app.App {
-    name = "flask_demo"
+    name = "flask-demo"
     containers: {
         flask_demo = {
             image = "kcllang/flask_demo:8d31498e765ff67a2fa9933d4adffe067544b2fe"
