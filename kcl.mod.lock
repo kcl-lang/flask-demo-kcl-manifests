@@ -1,0 +1,6 @@
+[dependencies]
+  [dependencies.dd]
+    name = "dd"
+    full_name = "dd_"
+    sum = "soTnqxtwvRFqlp8AI+md6vsyTdyo/wQ8x6zRUB7q/gk="
+    path = "./cc"
