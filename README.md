@@ -11,5 +11,5 @@ kcl run
 ## Test
 
 ```shell
-kcl test
+kcl test ./...
 ```

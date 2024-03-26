@@ -1,5 +1,3 @@
-import manifests
-
 import app
 
 # Convert the `App` model into Kubernetes Deployment and Service Manifests

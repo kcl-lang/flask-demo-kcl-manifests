@@ -1,4 +1,5 @@
 import app
+
 config = app.App {
     name = "flask-demo"
     containers: {
@@ -10,4 +11,3 @@ config = app.App {
     service: {ports = [{port = 5000, targetPort = 5000}]}
     service: {type = "NodePort"}
 }
-
