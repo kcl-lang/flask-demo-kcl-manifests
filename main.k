@@ -1,5 +1,4 @@
 import app
-import cc
 config = app.App {
     name = "flask-demo"
     containers: {
