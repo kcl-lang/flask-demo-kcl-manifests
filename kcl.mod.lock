@@ -6,3 +6,17 @@
     reg = "ghcr.io"
     repo = "kcl-lang/helloworld"
     oci_tag = "0.1.4"
+  [dependencies.k8s]
+    name = "k8s"
+    full_name = "k8s_1.31.2"
+    version = "1.31.2"
+    reg = "ghcr.io"
+    repo = "kcl-lang/k8s"
+    oci_tag = "1.31.2"
+  [dependencies.oam]
+    name = "oam"
+    full_name = "oam_0.2.1"
+    version = "0.2.1"
+    reg = "ghcr.io"
+    repo = "kcl-lang/oam"
+    oci_tag = "0.2.1"
